@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Flex box</title>
+    <style>
+        
+        .flex-container{
+            display: flex;
+            background-color: #33FF5E;
+            flex-direction: row;
+            justify-content: space-between;
+            
+        }
+        /* Todos as divs que estão dentro de um componente da classe container irão receber um determinado estilo definido no nesse seletor de css */
+        .flex-container > div {
+            background-color:antiquewhite;
+            height: 100px;
+            width: 100px;
+            padding: 20px;
+            font-size: 30px;
+            border: 1px solid coral;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+
+
+    </div>
+
+</body>
+</html>
